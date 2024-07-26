@@ -112,9 +112,7 @@ namespace GradingSystem.frm_Collection
             }
 
             role = SelectedRole();
-            IUser newUser = new User(
-                "Data Source=TRANTRUONG;Initial Catalog=GradingSystem;Integrated Security=True;Trust Server Certificate=True",
-                role);
+            IUser newUser = new User(Config.ConnectionString, role);
             int result = newUser.Create(username, password, email);
 
             // thuc thi truy van 

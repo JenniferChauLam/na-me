@@ -16,7 +16,7 @@ using Microsoft.Data.SqlClient;
 
 namespace GradingSystem.frm_Collection
 {
-    public partial class frmMainMenu : Form
+    public partial class frmStudentMain : Form
     {
         private IconButton currentBtn;
         private Panel leftBorderBtn;
@@ -29,7 +29,7 @@ namespace GradingSystem.frm_Collection
 
 
 
-        public frmMainMenu()
+        public frmStudentMain()
         {
             InitializeComponent();
             leftBorderBtn = new();
@@ -122,7 +122,7 @@ namespace GradingSystem.frm_Collection
             ActiveButton(sender, RGBColors.color1, "Exam");
 
             this.MainPanel.Controls.Clear();
-            frmExam frmExams = new()
+            FrmDoExam frmExams = new("1","1") //remember to change it!!!!!
             {
                 Dock = DockStyle.Fill,
                 TopLevel = false,

@@ -131,8 +131,7 @@
             // ProfilePicture
             // 
             ProfilePicture.Dock = DockStyle.Right;
-            ProfilePicture.ErrorImage = Properties.Resources.default_pfp;
-            ProfilePicture.Image = Properties.Resources.default_pfp;
+            
             ProfilePicture.ImageLocation = "";
             ProfilePicture.ImageRotate = 0F;
             ProfilePicture.Location = new Point(44, 15);

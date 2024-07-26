@@ -1,6 +1,6 @@
 ﻿namespace GradingSystem.frm_Collection
 {
-    partial class frmMainMenu
+    partial class frmStudentMain
     {
         /// <summary>
         /// Required designer variable.

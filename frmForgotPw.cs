@@ -26,7 +26,8 @@ namespace GradingSystem.frm_Collection
         string verifyCode;
         public static string to;
 
-        private string connectionString = "Data Source=TRANTRUONG;Initial Catalog=GradingSystem;Integrated Security=True;Trust Server Certificate=True";
+        private string connectionString = "Data Source=Data Source=JENLAP\\MSSQLSERVERNO;Initial Catalog=GradingSystem;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
+
 
         public frmForgotPw()
         {
